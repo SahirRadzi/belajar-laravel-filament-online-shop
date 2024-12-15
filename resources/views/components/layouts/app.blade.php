@@ -26,6 +26,9 @@
     @if(!isset($hideBottomNav))
         @livewire('components.bottom-navigation')
     @endif
+
+    @livewire('components.alert')
+
     <!-- Hide Scrollbar Style -->
     <style>
         .hide-scrollbar {
